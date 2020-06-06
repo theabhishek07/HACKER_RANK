@@ -18,6 +18,7 @@ Input Format
 A single line containing a positive integer,n.
 
 Constraints
+1<=n>=100
 
 Output Format
 
@@ -37,8 +38,41 @@ Sample Output 1
 Not Weird
 Explanation
 
-Sample Case 0: 
- is odd and odd numbers are weird, so we print Weird.
+Sample Case 0: n=3
+ n is odd and odd numbers are weird, so we print Weird.
 
-Sample Case 1: 
- and  is even, so it isn't weird. Thus, we print Not Weird.
+Sample Case 1: n=24
+ n<20 and n is even, so it isn't weird. Thus, we print Not Weird.
+ 
+ Program: -
+ 
+ import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();            
+        String ans="";
+        if(n%2==1 || ( (n%2==0) && (n>=6 && n <= 20 ) ) ){
+          ans = "Weird";
+        }
+        else{
+            ans = "Not Weird";
+           //Complete the code
+
+        }
+        System.out.println(ans);
+
+    }
+}
+ 
+ 
