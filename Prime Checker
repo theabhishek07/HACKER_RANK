@@ -6,7 +6,6 @@ import java.util.regex.*;
 import java.lang.reflect.*;
 
 public class Solution {
-
 	public static void main(String[] args) {
 		try{
 		BufferedReader br=new BufferedReader(new InputStreamReader(in));
@@ -30,8 +29,7 @@ public class Solution {
 				overload=true;
 				break;
 			}
-			set.add(methods[i].getName());
-			
+			set.add(methods[i].getName());	
 		}
 		if(overload)
 		{
