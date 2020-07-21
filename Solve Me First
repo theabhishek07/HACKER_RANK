@@ -9,8 +9,6 @@ public class Solution {
 
 
     static int solveMeFirst(int a, int b) {
-      // Hint: Type return a+b; below
-      
 	}
 
  public static void main(String[] args) {
