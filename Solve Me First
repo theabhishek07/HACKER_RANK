@@ -4,11 +4,11 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
-    static int solveMeFirst(int a, int b) {
-	}
-
- public static void main(String[] args) {
+public class Solution
+{
+    static int solveMeFirst(int a, int b) 
+ public static void main(String[] args)
+ {
         Scanner in = new Scanner(System.in);
         int a;
         a = in.nextInt();
