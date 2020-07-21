@@ -5,19 +5,8 @@ import java.util.*;
 import java.util.regex.*;
 
 public class Solution {
-
-    /*
-     * Complete the simpleArraySum function below.
-     */
-    static int simpleArraySum(int[] ar) {
-        /*
-         * Write your code here.
-         */
-
-    }
-
+    static int simpleArraySum(int[] ar)
     private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
